@@ -1,6 +1,8 @@
 body{
-	font-family: 'Roboto', sans-serif;
-	color: #000;
+	font-family: "Bookman Old Style";
+	background-image: url("./sky_background.jpg");
+	background-repeat: repeat-x;
+	background-position: center;
 }
 
 #title {
@@ -91,7 +93,7 @@ ul.chec-radio li.pz {
 #quoteButton:hover{
 	cursor:pointer;
 	background:#09c;
-	color: #fff;	
+	color: #fff;
 }
 #quoteButton:active{
 	cursor: pointer;

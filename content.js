@@ -1,4 +1,20 @@
 	$(document).ready(function(){
+		var img =
+			 	document.createElement("img");
+ 
+				img.src = "midlife_crisis1.jpg";
+				var src = document.getElementById("ig1");
+			// , 
+			// {
+			// 	document.createElement("img");
+ 
+			// 	img.src = "midlife_crisis1.jpg";
+			// 	var src = document.getElementById("ig1");
+ 
+			// 	src.appendChild(img);
+
+			// }
+			
 		var quoteSource=[
 		{
 			quote: "Start by doing what's necessary; then do what's possible; and suddenly you are doing the impossible.",
@@ -113,6 +129,7 @@
 			for(i=0;i<=sourceLength;i+=1){
 			var newQuoteText = quoteSource[randomNumber].quote;
 			var newQuoteGenius = quoteSource[randomNumber].name;
+			src.appendChild(img);
 			//console.log(newQuoteText,newQuoteGenius);
       var timeAnimation = 500;
       var quoteContainer = $('#quoteContainer');

@@ -4,9 +4,69 @@
 	<title>Inspirational Quote of the Day</title>
 	<link rel="stylesheet" href="quote.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet' type='text/css'>
+	<!-- Libraries for radio button -->
+	<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+	<!-- Libraries for javascript -->
+	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
 </head>
 <body>
+	<ul class="chec-radio">
+	<li class="pz">
+		<label class="radio-inline">
+			<input type="checkbox" id="pro-chx-residential" name="gas_availability" class="pro-chx" value="yes" checked>
+			<div class="clab">Gas Availability</div>
+		</label>
+	</li>
+	<li class="pz">
+		<label class="radio-inline">
+			<input type="checkbox" id="pro-chx-residential" name="electricity_availability" class="pro-chx" value="yes">
+			<div class="clab">Electric Availability</div>
+		</label>
+	</li>
+	<li class="pz">
+		<label class="radio-inline">
+			<input type="checkbox" id="pro-chx-residential" name="phone_internet" class="pro-chx" value="yes">
+			<div class="clab">Phone and Internet</div>
+		</label>
+	</li>
+	<li class="pz">
+		<label class="radio-inline">
+			<input type="checkbox" id="pro-chx-residential" name="water_availability" class="pro-chx" value="yes">
+			<div class="clab">Water Availability</div>
+		</label>
+	</li>
+	<li class="pz">
+		<label class="radio-inline">
+			<input type="checkbox" id="pro-chx-residential" name="sanitation" class="pro-chx" value="yes">
+			<div class="clab">Sanitation</div>
+		</label>
+	</li>
+</ul>
+
+
+
+<ul class="chec-radio">
+	<li class="pz">
+		<label class="radio-inline">
+			<input type="radio" checked="" id="pro-chx-residential" name="property_type" class="pro-chx" value="constructed">
+			<div class="clab">Constructed</div>
+		</label>
+	</li>
+	<li class="pz">
+		<label class="radio-inline">
+			<input type="radio" id="pro-chx-commercial" name="property_type" class="pro-chx" value="unconstructed" checked>
+			<div class="clab">Un Constructed</div>
+		</label>
+	</li>
+	<li class="pz">
+		<label class="radio-inline">
+			<input type="radio" id="pro-chx-open" name="property_type" class="pro-chx" value="open_land">
+			<div class="clab">Open Land</div>
+		</label>
+	</li>
+</ul>
 	<div id="container">
 		<h2>Get Your Daily Quote</h2>
 			<div id="quoteContainer">

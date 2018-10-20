@@ -3,11 +3,17 @@ body{
 	color: #000;
 }
 
+#title {
+	margin-left: 30px;
+	 text-align: center;
+    align-content: center;
+}
 ul.chec-radio {
-    margin: 15px;
+    text-align: center;
+    align-content: center;
 }
 ul.chec-radio li.pz {
-    display: inline;
+    display: inline-block; text-align: left;
 }
 .chec-radio label.radio-inline input[type="checkbox"] {
     display: none;
@@ -51,6 +57,7 @@ ul.chec-radio li.pz {
 	margin:50px auto;
 	padding: 20px;
 	width:50%;
+
 }
 #container h2{
 	text-align:center;

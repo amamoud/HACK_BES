@@ -2,7 +2,7 @@
 		var img =
 			 	document.createElement("img");
  
-				img.src = "midlife_crisis1.jpg";
+				img.src = "memes/midlife_crisis1.jpg";
 				var src = document.getElementById("ig1");
 			// , 
 			// {
